@@ -11,7 +11,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if ($contrasena1 !== $contrasena2) {
         $mensaje = 'Las contraseñas no coinciden. Por favor, inténtalo de nuevo.';
     } else {
-        // Almacenar las credenciales en variables de sesión (esto es solo un ejemplo, no es seguro para un entorno de producción)
+        // Almacenar las credenciales en variables de sesión 
         $_SESSION['usuario_autenticado'] = true;
         $_SESSION['nombre_usuario'] = $nombre;
 
