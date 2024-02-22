@@ -108,7 +108,7 @@ function calcularPrecioTotal($precioUnitario, $seguro, $numEmails) {
     </div>
 
     <script>
-        // Tu código JavaScript existente aquí
+      
     </script>
 
 </body>
