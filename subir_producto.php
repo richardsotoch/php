@@ -13,14 +13,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $nombreProducto = $_POST['nombreProducto'];
     $precio = $_POST['precio'];
 
-    // Almacenar el producto en una variable de sesión (esto es solo un ejemplo)
+    // Almacenar el producto en una variable de sesión 
     $producto = [
         'numeroSerie' => $numeroSerie,
         'nombreProducto' => $nombreProducto,
         'precio' => $precio
     ];
 
-    // Almacenar el producto en un array de productos (esto es solo un ejemplo, en un entorno de producción, deberías usar una base de datos)
+    // Almacenar el producto en un array de productos 
     if (!isset($_SESSION['productos'])) {
         $_SESSION['productos'] = [];
     }
