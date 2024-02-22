@@ -132,7 +132,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_POST["generarTicket"])) {
     </div>
 
     <script>
-        // Tu código JavaScript existente aquí
+        
     </script>
 
 </body>
