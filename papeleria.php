@@ -57,8 +57,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         ?>
     </div>
 
-    <!-- Agrega aquí tus scripts JavaScript si es necesario -->
-
 </body>
 
 </html>
