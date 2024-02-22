@@ -43,8 +43,6 @@ if (!isset($_SESSION['usuario_autenticado'])) {
 
     </div>
 
-    <!-- Agrega aquí tus scripts JavaScript si es necesario -->
-
 </body>
 
 </html>
