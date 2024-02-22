@@ -127,7 +127,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_POST["mostrarMensaje"])) {
     </div>
 
     <script>
-        // Tu código JavaScript existente aquí
+        
     </script>
 
 </body>
